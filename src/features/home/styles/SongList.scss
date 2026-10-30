@@ -1,0 +1,36 @@
+.song-list-container {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  padding: 24px;
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  overflow-y: auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.song-list-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.song-list-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.song-list-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.song-list-header {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 16px 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}

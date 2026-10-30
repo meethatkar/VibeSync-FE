@@ -1,0 +1,13 @@
+Things I Learned:
+ImageKit,
+node-i3,
+token blacklisting
+ML [mediapipe library] (blackbox coding),
+multer,
+enums,
+redis
+
+TODO:- 
+category field in song model.
+suggest random songs.
+playlist as per mood.
